@@ -1,0 +1,14 @@
+GET http://localhost:5000/videos/g
+
+###
+
+POST http://localhost:5000/videos/p
+Content-Type: application/json
+
+{
+    "title":"titleOfVideo",
+    "videoLink": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4"
+}
+
+###
+DELETE http://localhost:5000/videos/6101d1009e86aa0ea8e06119
